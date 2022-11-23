@@ -1,0 +1,30 @@
+#überschrift {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#überschrift img {
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    border: 1px solid rgb(253, 253, 253);
+}
+
+#tabelle {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tr, th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+#th {
+    background-color: #04aa6d;
+}
